@@ -44,7 +44,7 @@ fun App() {
             }
 
             AnimatedVisibility(visible = showContent) {
-                val greeting = remember { Greeting().greet() }
+                val greeting = remember { viewModel.getGreeting().greet() }
 
                 Column(
                     modifier = Modifier.fillMaxWidth(),
