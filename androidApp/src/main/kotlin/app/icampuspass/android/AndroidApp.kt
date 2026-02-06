@@ -6,6 +6,7 @@ import app.icampuspass.shared.viewmodels.ClassScheduleScreenViewModel
 import app.icampuspass.shared.viewmodels.GreetingScreenViewModel
 import app.icampuspass.shared.viewmodels.MainScreenViewModel
 import app.icampuspass.shared.viewmodels.UserPickerScreenViewModel
+import app.icampuspass.android.widget.viewmodels.WidgetConfigurationScreenViewModel
 import org.koin.dsl.module
 
 class AndroidApp : Application() {
@@ -34,6 +35,11 @@ class AndroidApp : Application() {
                         UserPickerScreenViewModel(
                             tkuIlifeAccountRepository = get()
                         )
+                    }
+                },
+                module {
+                    factory<WidgetConfigurationScreenViewModel> {
+                        WidgetConfigurationScreenViewModel()
                     }
                 }
             )
