@@ -4,6 +4,7 @@ import android.app.Application
 import app.icampuspass.shared.initKoin
 import app.icampuspass.shared.viewmodels.GreetingScreenViewModel
 import app.icampuspass.shared.viewmodels.MainScreenViewModel
+import app.icampuspass.android.widget.viewmodels.WidgetConfigurationScreenViewModel
 import org.koin.dsl.module
 
 class AndroidApp : Application() {
@@ -20,6 +21,11 @@ class AndroidApp : Application() {
 
                     factory<MainScreenViewModel> {
                         MainScreenViewModel()
+                    }
+                },
+                module {
+                    factory<WidgetConfigurationScreenViewModel> {
+                        WidgetConfigurationScreenViewModel()
                     }
                 }
             )
