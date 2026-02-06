@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">iCampusPass</string>
+    <string name="app_widget_label">Gadget label</string>
+    <string name="app_widget_description">Gadget description</string>
+    <string name="app_widget_preview_text">Hello, world!</string>
 </resources>
+
