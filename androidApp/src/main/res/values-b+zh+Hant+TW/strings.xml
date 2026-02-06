@@ -19,4 +19,7 @@
     <string name="settings">設定</string>
     <string name="about_app">關於%1$s</string>
     <string name="app_version">版本%1$s</string>
+    <string name="app_widget_label">小工具標籤</string>
+    <string name="app_widget_description">小工具描述</string>
+    <string name="app_widget_preview_text">Hello, world!</string>
 </resources>
