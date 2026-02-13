@@ -1,44 +1,29 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "contentview_click_me" : {
+    "sandbox4screen_content" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Click me!"
+            "value" : "Content"
           }
         }
       }
     },
-    "Detail" : {
-
-    },
-    "Detail View" : {
-
-    },
-    "Go to Detail View (hides Tab Bar)" : {
-
-    },
-    "Hello, world!" : {
-
-    },
-    "Home" : {
-
-    },
-    "mainscreen_click_me" : {
+    "sandbox4screen_detail" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Click me!"
+            "value" : "Detail"
           }
         }
       }
     },
-    "mainscreen_hello_world" : {
+    "sandbox4screen_hello_world" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
@@ -49,23 +34,16 @@
         }
       }
     },
-    "Person View" : {
-
-    },
-    "Settings" : {
-
-    },
-    "Settings View" : {
-
-    },
-    "SwiftUI: %@" : {
-
-    },
-    "Today" : {
-
-    },
-    "Toggle Sidebar" : {
-
+    "sandbox4screen_sidebar" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Sidebar"
+          }
+        }
+      }
     }
   },
   "version" : "1.0"
